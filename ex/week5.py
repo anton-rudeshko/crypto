@@ -36,7 +36,6 @@ for x1 in xrange(0, B):
     left_side[val] = x1
 
 print 'Performing lookup...'
-i = 0
 for x0 in xrange(0, B):
     gBx0 = gmpy2.powmod(gB, x0, p)
     if gBx0 in left_side:
